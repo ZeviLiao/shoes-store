@@ -41,6 +41,9 @@ yarn-error.log*
 # sensitive documentation
 docs/database-password-recovery.md
 
+# Claude Code local settings
+.claude/settings.local.json
+
 # vercel
 .vercel
 
