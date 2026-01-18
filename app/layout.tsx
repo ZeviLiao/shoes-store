@@ -26,8 +26,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <body className={`${roboto.className}`}>
                 <ThemeProvider
                     attribute="class"
-                    defaultTheme="system"
-                    enableSystem
+                    defaultTheme="light"
+                    enableSystem={false}
                     disableTransitionOnChange
                 >
                     {/* <ErrorWrapper> */}
